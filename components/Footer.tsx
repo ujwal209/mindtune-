@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Mail, Phone, Globe, MapPin, ArrowUpRight, Instagram, Linkedin, Facebook } from "lucide-react";
+import { Mail, Phone, MapPin, ArrowUpRight, Instagram, Linkedin, Facebook } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -92,7 +92,11 @@ export default function Footer() {
                 </div>
                 <div className="space-y-1">
                   <p className="text-[10px] font-black uppercase tracking-widest text-slate-400">Head Office</p>
-                  <p className="text-lg font-bold text-[#17144B]">Bengaluru, India</p>
+                  <p className="text-lg font-bold text-[#17144B] leading-tight max-w-[300px]">
+                    Mind Tune Consultants,<br />
+                    No. 49, 19th Main, Muneshwara block, <br />
+                    Bengaluru 560026
+                  </p>
                 </div>
               </li>
             </ul>
